@@ -1,11 +1,10 @@
+// MIT license, Copyright (c) 2012 Steve Dekorte and Rich Collins
+
 #include <stdio.h>
 #include <string.h>
 #include "lua.h"
 #include "lauxlib.h"
 #include "lualib.h"
-
-//#include <OpenAL/al.h>
-//#include <OpenAL/alc.h>
 
 #if defined(__APPLE__) && defined(__MACH__)
 	#include <OpenAL/al.h>

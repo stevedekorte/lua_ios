@@ -1,3 +1,4 @@
+// MIT license, Copyright (c) 2012 Steve Dekorte and Rich Collins
 
 #include "lua.h"
 #include "lauxlib.h"
