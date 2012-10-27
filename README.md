@@ -19,7 +19,7 @@ To use, just include the lua_ios folder in your Xcode project, add your own main
 	NSString *filePath = [[NSBundle mainBundle] 
 		pathForResource:@"main" ofType:@"lua"];
 
-    luaL_loadfile(_luaState, [filePath UTF8String]);
+    luaL_loadfile(luaState, [filePath UTF8String]);
     
  You will also need to link the following frameworks into your project:
  
