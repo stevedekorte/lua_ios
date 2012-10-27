@@ -9,6 +9,7 @@ lua_ios is a lightweight MIT licensed lua game engine alternative to frameworks 
 	OpenAL
 
 USAGE
+---------
 
 To use, just include the lua_ios folder in your Xcode project, add your own main.lua resource file and call the following in your GLESView:
 
@@ -21,6 +22,7 @@ To use, just include the lua_ios folder in your Xcode project, add your own main
     luaL_loadfile(_luaState, [filePath UTF8String]);
  
 AUTHORS
+------------
 
 Steve Dekorte and Rich Collins
         
