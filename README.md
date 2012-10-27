@@ -2,7 +2,7 @@
 lua_ios
 ======
 
-lua_ios is a lightweight MIT licensed lua game engine alternative to frameworks like Corona or Moai. It includes LuaJIT and bindings for:
+lua_ios is a lightweight lua game engine alternative to frameworks like Corona or Moai. It includes LuaJIT and bindings for:
 
 	OpenGLES
 	luasocket
@@ -21,8 +21,9 @@ To use, just include the lua_ios folder in your Xcode project, add your own main
 
     luaL_loadfile(_luaState, [filePath UTF8String]);
  
-AUTHORS
+ LICENSE
 ------------
 
-Steve Dekorte and Rich Collins
+MIT licensed
+Copyright Steve Dekorte and Rich Collins
         
