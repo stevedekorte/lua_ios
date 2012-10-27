@@ -20,6 +20,15 @@ To use, just include the lua_ios folder in your Xcode project, add your own main
 		pathForResource:@"main" ofType:@"lua"];
 
     luaL_loadfile(_luaState, [filePath UTF8String]);
+    
+ You will also need to link the following frameworks into your project:
+ 
+ 	GLKit.framework
+ 	OpenGLES.framework
+ 	OpenAL.framework
+ 	QuartzCore.framework
+ 	CoreGraphics.framework
+ 	Foundation.framework	
  
  LICENSE
 ------------
